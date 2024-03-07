@@ -14,11 +14,14 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/education" element={<Education />} />
-          <Route path="/experience" element={<Experience />} />
-          <Route path="/certifications" element={<Certifications />} />
-          <Route path="/skills" element={<Skills />} />
+          <Route path="/react-portfolio/" element={<Home />} />
+          <Route path="/react-portfolio/education" element={<Education />} />
+          <Route path="/react-portfolio/experience" element={<Experience />} />
+          <Route
+            path="/react-portfolio/certifications"
+            element={<Certifications />}
+          />
+          <Route path="/react-portfolio/skills" element={<Skills />} />
         </Routes>
       </div>
     </Router>
